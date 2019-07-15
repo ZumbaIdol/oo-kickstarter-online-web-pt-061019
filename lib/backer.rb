@@ -6,11 +6,11 @@ class Backer
     @name = name
   end
   
-  def back_project(project, backer)
-    @backed_projects << project, backer
+  def back_project(project)
+    @backed_projects << project
   end
   
-  # def more_advanced_back_project(backer)
-  #   @backed_projects << backer
-  # end
+  def more_advanced_back_project(backer)
+    @backed_projects << backer
+  end
 end
