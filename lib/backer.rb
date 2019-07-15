@@ -11,6 +11,7 @@ class Backer
   end
   
   def more_advanced_back_project(project)
-    @backed_projects.each { |project| << Backer.new(name)}
+    @backed_projects.each { |project| 
+    << Backer.new(name)}
   end
 end
